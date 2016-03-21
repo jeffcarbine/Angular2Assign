@@ -1,34 +1,24 @@
-# Angular2Assign
-This is an assignment to gain exposure to Angular 2.
+# Tour of Heroes
 
-Angular is a complete framework for writing single page applications. When using Angular, you can use a few different languages that all get transpiled to es5 (for now). These include Javascript, Typescript and Dart. There is a focus on Typescript. For this assignment you will be using Typescript.
+That is the name of this project.
 
-Learn more about Typescript [here.](http://www.typescriptlang.org/)
+# Build instructions
 
+- Copy repository
+- npm install
+- npm start
+- enjoy the app
 
-#Steps
-We will be stating from scratch on this assignment and pushing your finished code to you github account, and turning in a URL to the repo.
+*Note*: I assume that I shouldn't have my `.ts` and `.js.map` files included, since those are generated on-the-fly when you run `npm start`, but I couldn't get my `.gitignore` file to obey me.
 
-# Assignment
+# What I learned
 
-Your assignment is to work through the [Angular tutorial.](https://angular.io/docs/ts/latest/tutorial/)
+I learned the basiscs of Angular 2. I learned that it is a lot like React in the way that you build components. I learned that is nothing like Angular 1.whatever, which is what I used previously. So I'm going to try to rebuild my previous Angular app in Angular 2 applying what I learned here.
 
-You will need to turn in 7 commits. One for each chapter of the tutorial, including the quickstart guide.
+# What you found difficult
 
-Include a README file that includes the following:
+TypeScript is a *little* hard - not that it's difficult to understand, but just because I haven't used it very much. I also found some of the instructions kind of confusing (to be honest, I wouldn't be able to recreate this app from scratch without looking through the tutorial again), and I had to do a lot of re-reading, and to be honest, there are still things I don't get. But I figure that two afternoons working through this tutorial does not an Angular 2 expert make.
 
-- Name of project
-- Build instructions
-- What you learned
-- What you found difficult
-- Why are .gitignore files important
+# Why are .gitignore files important
 
-Also, as part of this assignment, you will need to include a .gitignore file to ignore files that *shouldn't* be tracked by git.
-
-
-
-#Tips
-- Typescript is a strongly typed language. Learn more about type systems [here.](https://www.smashingmagazine.com/2013/04/introduction-to-programming-type-systems/)
-- Angular 2 is a complete rewrite from Angular 1. It is still in open beta, but it is poised to be a big deal in web development.
-- Don't worry if you don't understand all the specifics with the details of the framework. Try and keep a broad view of how things connect. At the end of the day, in Angular we are still writing web components. Like what we did in Polymer or React.
-- Research .gitignore files and why you should use them.
+They keep unimportant files out of your project, things that can be created on the fly (like my `.ts` and `.min.js`) or things that can be downloaded through `NPM` or `Bower`.
