@@ -15,7 +15,7 @@ That is the name of this project.
 
 I learned the basiscs of Angular 2. I learned that it is a lot like React in the way that you build components. I learned that is nothing like Angular 1.whatever, which is what I used previously. So I'm going to try to rebuild my previous Angular app in Angular 2 applying what I learned here.
 
-# What you found difficult
+# What I found difficult
 
 TypeScript is a *little* hard - not that it's difficult to understand, but just because I haven't used it very much. I also found some of the instructions kind of confusing (to be honest, I wouldn't be able to recreate this app from scratch without looking through the tutorial again), and I had to do a lot of re-reading, and to be honest, there are still things I don't get. But I figure that two afternoons working through this tutorial does not an Angular 2 expert make.
 
